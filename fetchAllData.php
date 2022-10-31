@@ -1,6 +1,19 @@
 <?php
-include 'config/DBConfig.php';
+// include 'config/DBConfig.php';
  
+
+//Define your host here.
+$HostName = "sql305.epizy.com";
+ 
+//Define your database name here.
+$DatabaseName = "epiz_30340341_sindhiweddiDB";
+ 
+//Define your database username here.
+$HostUser = "epiz_30340341";
+ 
+//Define your database password here.
+$HostPass = "v3mK1FVfuoZ";
+
 // Create connection
 
 header('Access-Control-Allow-Origin: *');
